@@ -5,20 +5,28 @@ clear
 
 #Welcome
 echo "Welcome to the Helluvaplayer!"
-sleep 3
+sleep 1
 clear
 
 #Actual program
-echo "Type 1 for Helluva Boss or type anything for Hazbin hotel."
+echo "Type 1 for Helluva Boss or 2 for Hazbin hotel."
 
 read -p "Type here: " sel
 
 if [[ "$sel" == "1" ]]; then
-echo "You choose: Helluva Boss"
+echo "Now playing: Helluva Boss"
 mpv https://youtube.com/playlist?list=PL-uopgYBi65HwiiDR9Y23lomAkGr9mm-S
+fi
+
+if [[ "$sel" == "2" ]]; 
+then
+	echo "Now playing: Hazbin Hotel"
+	mpv https://youtu.be/Zlmswo0S0e0
 else
-echo "You choose: Hazbin Hotel"
-mpv https://youtu.be/Zlmswo0S0e0
+	clear 
+	echo "Invalid option exiting.."
+	sleep 1
+	exit
 fi
 
 #End fase
