@@ -1,4 +1,7 @@
-# Helluvaplayer 
+
+# ⚠️ Project discontinued, sorry
+
+## Helluvaplayer 
 Helluvaplayer is a simple program written in bash that lets the user watch Hazbin Hotel and Helluva Boss right from the comfort of the command line. 
 ## Dipendencies
 The script gets help from [mpv](https://mpv.io/ "mpv") and [youtube-dl](https://youtube-dl.org/ "youtube-dl"), make sure to install them before running the script!
